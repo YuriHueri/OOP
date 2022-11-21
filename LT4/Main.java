@@ -1,55 +1,37 @@
-class Polygon {
+class Izone {
 
-  // method to render a shape
+    public void Kpop() {
 
-  public void render() {
-
-    System.out.println("Rendering Polygon...");
-
-  }
-
+        System.out.println("Best Group Izone");
+    }
 }
 
-class Square extends Polygon {
+class LeSserafim extends Izone {
 
-  // renders Square
+    public void Kpop() {
 
-  public void render() {
-
-    System.out.println("Rendering Square...");
-
-  }
-
+        System.out.println("Best Group LeSserafim");
+    }
 }
 
-class Circle extends Polygon {
+class Ive extends Izone {
 
-  // renders circle
+    public void Kpop() {
 
-  public void render() {
-
-    System.out.println("Rendering Circle...");
-
-  }
-
+        System.out.println("Best Group Ive");
+    }
 }
 
 class Main {
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    // create an object of Square
+        LeSserafim L1 = new LeSserafim();
 
-    Square s1 = new Square();
+        L1.Kpop();
 
-    s1.render();
+        Ive I1 = new Ive();
 
-    // create an object of Circle
-
-    Circle c1 = new Circle();
-
-    c1.render();
-
-  }
-
+        I1.Kpop();
+    }
 }
